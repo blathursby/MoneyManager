@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_input" android:icon="@android:drawable/ic_menu_add"
+            android:title="Add expense" />
+        <item android:id="@+id/nav_budget_counter" android:icon="@android:drawable/ic_menu_day"
+            android:title="Budget counter" />
+        <item android:id="@+id/nav_diagnostics" android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Diagnostics" />
+        <item android:id="@+id/nav_statistics" android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Statistics" />
+        <item android:id="@+id/nav_expenses" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Expenses history" />
+        <item android:id="@+id/nav_settings" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+</menu>
